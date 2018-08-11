@@ -68,7 +68,7 @@ void setup()
 
 void loop()
 {
- // digitalWrite(pumpeRelais,HIGH);
+  digitalWrite(pumpeRelais,HIGH);
  // Send the command to get temperatures
   sensors.requestTemperatures();
   tempCTank = (sensors.getTempCByIndex(0));
